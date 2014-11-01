@@ -1,0 +1,18 @@
+body{
+  background-image:url('../images/house.png');
+  margin: 0;
+}
+.top{
+  height: 10em;
+  background-image:url('../images/sky.png');
+}
+.title-list{
+  float:left;
+  margin-top:2em;
+  width:17em;
+  height: 1em;
+}
+.splitter{
+  float:left;
+  padding-top:4em;
+}
