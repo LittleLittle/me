@@ -1,18 +1,67 @@
 body{
   background-image:url('../images/house.png');
   margin: 0;
+  font-family: Segoe UI,微软雅黑;
 }
 .top{
-  height: 10em;
+  height: 11em;
   background-image:url('../images/sky.png');
 }
 .title-list{
   float:left;
-  margin-top:2em;
   width:17em;
   height: 1em;
 }
+
+.title-list ul{
+  width:13em;
+  margin:auto;
+}
+
+.title-list ul li{
+  padding-bottom:2em;
+}
+
 .splitter{
   float:left;
-  padding-top:4em;
+}
+
+.top .alert{
+  width: 22em;
+  margin: auto;
+  text-align: center;
+}
+
+.content-page{
+  background-image:url('../images/diary.jpg');
+  background-position:top right;
+  margin: 4em 3em 0 17em;
+  padding: 0.5em 2em;
+  border: 1px #2b91d5 dashed;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.content-page h2{
+  border-bottom: 1px solid #eee;
+  font-size: 22px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.skill-title{
+  float:left;
+  position: inline-block;
+  width: 10em;
+}
+
+.major-skill{
+  margin: 2em 1em 3em;
+}
+
+.interests{
+  margin: 2em 1em;
+}
+
+.interests span{
+  margin: 0 0.7em;
 }
