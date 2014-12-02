@@ -54,8 +54,17 @@ body{
   width: 10em;
 }
 
-.major-skill, .education-item{
+.major-skill, .education-item, .publication-item, .experience-item{
   margin: 2em 1em 3em;
+}
+
+.publication-item ul{
+  list-style-type:none;
+  padding-left: 0;
+}
+
+.publication-item ul li{
+  line-height: 2em;
 }
 
 .interests{
@@ -64,4 +73,14 @@ body{
 
 .interests span, .education-item span{
   margin: 0 0.7em;
+}
+
+.experience-time{
+  width: 15em;
+  display: inline-block;
+}
+
+.experience-title{
+  width: 15em;
+  display: inline-block;
 }
