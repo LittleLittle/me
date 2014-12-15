@@ -1,12 +1,23 @@
 body{
   background-image:url('../images/house.png');
   margin: 0;
-  font-family: Segoe UI,微软雅黑;
+  font-family: Segoe UI;
 }
 .top{
   height: 11em;
   background-image:url('../images/sky.png');
 }
+
+.name{
+  position: relative;
+  top: -1em;
+  left: 6em;
+  font-family: Segoe UI;
+  line-height: 1.5;
+  font-weight: bold;
+  display: inline-block;
+}
+
 .title-list{
   float:left;
   width:17em;
@@ -76,11 +87,32 @@ body{
 }
 
 .experience-time{
-  width: 15em;
+  width: 9em;
   display: inline-block;
 }
 
 .experience-title{
-  width: 15em;
+  width: 12em;
   display: inline-block;
+}
+
+footer{
+  text-align: center;
+  margin-top: 2em;
+  min-height: 5em;
+}
+
+footer a{
+  display: inline-block;
+  margin: 0.5em;
+}
+
+@media screen and (max-width: 900px){
+  .title-list, .splitter{
+    display:none;
+  }
+  
+  .content-page{
+    margin-left:3em;
+  }
 }
