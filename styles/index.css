@@ -96,6 +96,10 @@ body{
   display: inline-block;
 }
 
+.contact-item{
+  margin: 2em 0 3em 1em;
+}
+
 footer{
   text-align: center;
   margin-top: 2em;

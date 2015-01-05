@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="scripts/index.js"></script>
   </head>
   <body>
     <header class="top">
@@ -19,13 +20,13 @@
       <div class="name">Jianjun Zhu</div>
     </header>
     <div class="main">
-
-      <div class="title-list">
+      <div class="title-list" id="menu-list">
         <ul class="nav nav-pills nav-stacked" role="tablist">
-          <li role="presentation" class="active"><a href="#">Skills</a></li>
-          <li role="presentation"><a href="#">Education</a></li>
-          <li role="presentation"><a href="#">Publications</a></li>
-          <li role="presentation"><a href="#">Experience</a></li>
+          <li role="presentation" class="active"><a href="#content-skills">Skills</a></li>
+          <li role="presentation"><a href="#content-education">Education</a></li>
+          <li role="presentation"><a href="#content-publications">Publications</a></li>
+          <li role="presentation"><a href="#content-experiences">Experience</a></li>
+          <li role="presentation"><a href="#content-contact-me">Contact Me</a></li>
         </ul>
       </div>
       <div class="splitter">
@@ -85,7 +86,7 @@
             </ul>
           </div>
         </div>
-        <div class="content-page" id="content-publications">
+        <div class="content-page" id="content-experiences">
           <h2>Experience</h2>
           <div class="experience-item">
             <span class="experience-time">2006 - 2010</span>
@@ -106,6 +107,12 @@
             <span class="experience-time">2014 - Now</span>
             <span class="experience-title">Software Engineer@Intel</span>
             <span class="experience-summary">Client Development, WebRTC</span>
+          </div>
+        </div>
+        <div class="content-page" id="content-contact-me">
+          <h2>Contact Me</h2>
+          <div class="contact-item">
+            <a href="mailto:magic.z@outlook.com">magic.z@outlook.com</a>
           </div>
         </div>
       </div>
