@@ -24,6 +24,11 @@ body{
   height: 1em;
 }
 
+.title-list-float{
+   position:fixed;
+   top: 2em;
+}
+
 .title-list ul{
   width:13em;
   margin:auto;
@@ -35,6 +40,12 @@ body{
 
 .splitter{
   float:left;
+}
+
+.splitter-float{
+  position:fixed;
+  left:17em;
+  top:2em;
 }
 
 .top .alert{
