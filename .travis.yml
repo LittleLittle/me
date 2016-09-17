@@ -1,0 +1,8 @@
+sudo: false
+install:
+  - npm install -g gulp-cli
+  - npm install --save-dev gulp
+  - npm install --save-dev gulp-jshint
+after_script:
+  - gulp jshint
+
