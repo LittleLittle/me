@@ -6,6 +6,7 @@ install:
   - npm install -g gulp-cli
   - npm install --save-dev gulp
   - npm install --save-dev gulp-jshint
+script: true
 after_script:
   - gulp jshint
 
