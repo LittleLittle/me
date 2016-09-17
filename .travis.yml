@@ -10,4 +10,5 @@ after_script:
   - gulp jshint
 branches:
   only:
-    - /.*/
+  - master
+  - gh-pages
