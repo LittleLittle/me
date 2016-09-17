@@ -4,8 +4,7 @@ node_js:
   - "6"
 install:
   - npm install -g gulp-cli
-  - npm install --save-dev gulp
-  - npm install --save-dev gulp-jshint
+  - npm install --save-dev jshint gulp gulp-jshint
 script: true
 after_script:
   - gulp jshint
