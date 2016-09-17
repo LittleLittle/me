@@ -1,3 +1,7 @@
+/* globals $ */
+
+'use strict';
+
 var selectMenu=function(i){
   $('#menu-list ul li').removeClass('active');
   $('#menu-list ul li:nth-child('+i+')').addClass('active');
@@ -13,7 +17,7 @@ var getSelectionIndex=function(){
   for(var i=1;(i<anchorElementIds.length)&&(offset>document.getElementById(anchorElementIds[i]).offsetTop);i++){
   }
   return i+1;
-}
+};
 
 $(document).ready(function(){
   $('#menu-list ul li').click(function(){
@@ -33,7 +37,7 @@ var getSelectionIndex=function(){
   for(var i=1;(i<anchorElementIds.length)&&(offset>=document.getElementById(anchorElementIds[i]).offsetTop);i++){
   }
   return i;
-}
+};
 
 var scrollMenu=function(){
   var offset=$(document).scrollTop();
@@ -50,7 +54,7 @@ var scrollMenu=function(){
   }
   lastSelectionIndex=section;
   lastOffset=offset;
-}
+};
 
 $(document).scroll(function(){
   if($(document).scrollTop()>196){
